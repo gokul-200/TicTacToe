@@ -84,9 +84,9 @@ const TicTacToe = () => {
     setLock(false);
     data=["","","","","","","","",""];
     titleRef.current.innerHTML='Tic Tac Toe';
-    cell_array.map((e)=>{
-        e.current.innerHTML='';
-    })
+    cell_array.map((e)=>(
+        e.current.innerHTML=''
+    ))
 
  }
   return (
